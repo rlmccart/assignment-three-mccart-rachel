@@ -38,40 +38,6 @@ register_sidebar( array(
     'after_title'   => '</h3>'
     ));
 
-      //Bottom Left Home Widget
-register_sidebar( array(
-    'name'          => ('Bottom Left Home'),
-    'id'            => 'bottom-left-home',
-    'description'   => 'Widget area in bottom left home page',
-    'before_widget' => '<div class="bottom-left">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="widget-title">',
-    'after_title'   => '</h3>'
-    ));
-
-     //Bottom Middle Home Widget
-register_sidebar( array(
-    'name'          => ('Bottom Middle Home'),
-    'id'            => 'bottom-middle-home',
-    'description'   => 'Widget area in bottom middle home page',
-    'before_widget' => '<div class="bottom-middle">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="widget-title">',
-    'after_title'   => '</h3>'
-    ));
-
-     //Bottom Right Home Widget
-register_sidebar( array(
-    'name'          => ('Bottom Right Home'),
-    'id'            => 'bottom-right-home',
-    'description'   => 'Widget area in bottom right home page',
-    'before_widget' => '<div class="bottom-right">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="widget-title">',
-    'after_title'   => '</h3>'
-    ));
-
-
      //sidebar
 register_sidebar( array(
     'name'          => ('Sidebar'),
@@ -126,6 +92,39 @@ register_sidebar( array(
     'before_title'  => '<h3 class="widget-title">',
     'after_title'   => '</h3>'
     ));
+
+    //Bottom Left Blog Page Widget
+register_sidebar( array(
+   'name'          => ('Blog Left'),
+   'id'            => 'blog-bottom-left',
+   'description'   => 'Bottom left widget area on single blog page',
+   'before_widget' => '<div class="bottom-left">',
+   'after_widget'  => '</div>',
+   'before_title'  => '<h3 class="widget-title">',
+   'after_title'   => '</h3>'
+   ));
+
+    //Bottom Middle Blog Page Widget
+register_sidebar( array(
+   'name'          => ('Blog Middle'),
+   'id'            => 'blog-bottom-middle',
+   'description'   => 'Bottom middle widget area on single blog page',
+   'before_widget' => '<div class="bottom-middle">',
+   'after_widget'  => '</div>',
+   'before_title'  => '<h3 class="widget-title">',
+   'after_title'   => '</h3>'
+   ));
+
+   //Bottom Right Blog Page Widget
+register_sidebar( array(
+   'name'          => ('Blog Right'),
+   'id'            => 'blog-bottom-right',
+   'description'   => 'Bottom right widget area on single blog page',
+   'before_widget' => '<div class="bottom-right">',
+   'after_widget'  => '</div>',
+   'before_title'  => '<h3 class="widget-title">',
+   'after_title'   => '</h3>'
+   ));
 
 
 add_action('widgets_init', 'blank_widgets_init');

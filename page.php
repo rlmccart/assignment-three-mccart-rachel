@@ -14,7 +14,16 @@
 
           ?>
         </div>
-
+        <!-- Content Text Block Section -->
+            <div class="row">
+                <div class="two-thirds column">
+                    <?php dynamic_sidebar('about-us-single'); ?>
+                </div>
+                <div class="one-third column sidebar">
+                  <!-- sidebar -->
+                    <?php get_sidebar(); ?>
+                </div>
+            </div>
         <div class="three columns">
           <?php get_sidebar(); ?>
         </div>
