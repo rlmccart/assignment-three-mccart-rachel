@@ -95,16 +95,17 @@ li a {
 
 .sidebar {
     max-width: 275px;
+    text-align: left;
 }
 
 .widget-sidebar {
     margin-right: 0px;
-    align-content: left;
+    align-content: right;
     max-width: 275px;
 }
 
 .widget-sidebar a {
-    text-align: : left;
+    text-align: left;
 }
 
 .row {
