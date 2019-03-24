@@ -44,16 +44,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-
-li {
-    float: right;
+    text-align: left;
 }
 
 li a {
     display: block;
     color: pink;
-    text-align: right;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -102,10 +99,6 @@ li a {
     margin-right: 0px;
     align-content: right;
     max-width: 275px;
-}
-
-.widget-sidebar a {
-    text-align: left;
 }
 
 .row {
