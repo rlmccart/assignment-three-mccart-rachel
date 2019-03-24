@@ -45,19 +45,17 @@ ul {
     padding: 0;
     overflow: hidden;
     text-align: left;
+    display: inline;
 }
 
 li a {
-    display: block;
+    display: inline;
     color: pink;
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.container-posts {
-
-}
 
 .column,
 .columns {
