@@ -45,11 +45,11 @@ ul {
     padding: 0;
     overflow: hidden;
     text-align: left;
-    display: inline;
+    display: inline-block;
 }
 
 li a {
-    display: inline;
+    display: inline-block;
     color: pink;
     text-align: left;
     padding: 14px 16px;
