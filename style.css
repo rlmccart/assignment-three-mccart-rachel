@@ -39,6 +39,12 @@ p {
     padding-top: 20px;
 }
 
+.menu-primary-menu-container {
+    width: 100%;
+    padding-top: 20px;
+    display: inline-block;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
