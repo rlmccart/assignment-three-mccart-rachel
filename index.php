@@ -1,6 +1,14 @@
 <?php /*Template Name: Main Blog Page */ ?>
 
 <?php get_header(); ?>
+
+<!-- Hero Image Section -->
+    <div class="row">
+        <div class="twelve columns">
+            <?php dynamic_sidebar('hero-image'); ?>
+        </div>
+    </div>
+
 <div class="container">
     <div class="row">
     <?php
@@ -19,20 +27,5 @@
     ?>
     </div>
 </div>
-
-<!-- Hero Image Section -->
-    <div class="row">
-        <div class="twelve columns">
-            <?php dynamic_sidebar('hero-image'); ?>
-        </div>
-    </div>
-
-
-<!-- About Us Text Block Section -->
-    <div class="row">
-        <div class="twelve columns">
-            <?php dynamic_sidebar('about-us'); ?>
-        </div>
-    </div>
 
 <?php get_footer(); ?>
