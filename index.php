@@ -10,7 +10,6 @@
 
 <div class="container">
     <div class="row">
-      <div class="one-third column">
     <?php
         if(have_posts()){
             while(have_posts()){
@@ -25,11 +24,9 @@
 <?php        }// this ends the while loop
         }// this ends the if statement
     ?>
-      </div>
     </div>
 
     <div class="row">
-      <div class="one-third column">
     <?php
         if(have_posts()){
             while(have_posts()){
@@ -44,11 +41,9 @@
 <?php        }// this ends the while loop
         }// this ends the if statement
     ?>
-      </div>
     </div>
 
     <div class="row">
-      <div class="one-third column">
     <?php
         if(have_posts()){
             while(have_posts()){
@@ -64,7 +59,6 @@
         }// this ends the if statement
     ?>
       </div>
-    </div>
 </div>
 
 <?php get_footer(); ?>
