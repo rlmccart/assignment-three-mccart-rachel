@@ -48,7 +48,7 @@ ul {
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: pink;
     text-align: left;
     padding: 14px 16px;
