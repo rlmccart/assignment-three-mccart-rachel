@@ -39,27 +39,21 @@ p {
     padding-top: 20px;
 }
 
-.menu ul li {
-    display: inline-block;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     text-align: left;
-    display: inline-block;
 }
 
 li a {
-    display: inline-block;
+    display: block;
     color: pink;
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
 }
-
 
 .column,
 .columns {
@@ -99,12 +93,16 @@ li a {
 .sidebar {
     max-width: 275px;
     text-align: left;
-    margin-right: 0px;
 }
 
 .widget-sidebar {
     margin-right: 0px;
+    align-content: right;
     max-width: 275px;
+}
+
+a {
+    text-align: left;
 }
 
 .row {
