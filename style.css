@@ -49,7 +49,7 @@ ul {
 }
 
 li {
-    float: right;
+    float: left;
 }
 
 li a {
@@ -106,11 +106,6 @@ li a {
     align-content: right;
     max-width: 275px;
     text-align: left;
-}
-
-.widget-sidebar ul li {
-  text-align: left;
-  align-content: left;
 }
 
 .row {
