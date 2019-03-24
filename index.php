@@ -10,7 +10,6 @@
 
 <div class="container">
     <div class="row">
-      <div class="one-third column">
     <?php
         if(have_posts()){
             while(have_posts()){
@@ -28,7 +27,6 @@
       </div>
     </div>
     <div class="row">
-      <div class="one-third column">
     <?php
         if(have_posts()){
             while(have_posts()){
@@ -47,7 +45,6 @@
     </div>
 
     <div class="row">
-      <div class="one-third column">
     <?php
         if(have_posts()){
             while(have_posts()){
