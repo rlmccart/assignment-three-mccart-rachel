@@ -109,7 +109,8 @@ li a {
 }
 
 .widget-sidebar ul li {
-  text-align: left; 
+  text-align: left;
+  align-content: left; 
 }
 
 .row {
