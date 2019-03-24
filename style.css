@@ -44,6 +44,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    text-align: left;
+    align-content: left;
 }
 
 li {
@@ -57,8 +59,6 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-
 
 .column,
 .columns {
@@ -110,7 +110,7 @@ li a {
 
 .widget-sidebar ul li {
   text-align: left;
-  align-content: left; 
+  align-content: left;
 }
 
 .row {
