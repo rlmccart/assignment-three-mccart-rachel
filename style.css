@@ -54,9 +54,11 @@ li a {
     display: block;
     color: pink;
     text-align: left;
-    padding: 14px 26px;
+    padding: 14px 16px;
     text-decoration: none;
 }
+
+
 
 .column,
 .columns {
@@ -71,10 +73,12 @@ li a {
     margin-bottom: 0;
     font-family: 'Lato', sans-serif;
     color: pink;
+    text-align: left;
 }
 
 .post-date {
     margin-left: 15px;
+    text-align: left;
 }
 
 .post-feature {
@@ -101,6 +105,7 @@ li a {
     margin-right: 0px;
     align-content: right;
     max-width: 275px;
+    text-align: left;
 }
 
 .row {
