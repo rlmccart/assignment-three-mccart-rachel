@@ -103,6 +103,10 @@ li a {
     max-width: 275px;
 }
 
+.widget-sidebar a {
+    text-align: : left;
+}
+
 .row {
     display: inline;
 }
