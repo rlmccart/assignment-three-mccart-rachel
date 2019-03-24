@@ -20,7 +20,7 @@
                     <?php the_excerpt(); ?>
                    <p><?php echo "Published: " . get_the_date(); ?></p>
                    <p><?php echo "Article written by: " . get_the_author(); ?></p>
-                </div>
+            <!--    </div> -->
 <?php        }// this ends the while loop
         }// this ends the if statement
     ?>
@@ -37,7 +37,7 @@
                     <?php the_excerpt(); ?>
                    <p><?php echo "Published: " . get_the_date(); ?></p>
                    <p><?php echo "Article written by: " . get_the_author(); ?></p>
-                </div>
+          <!--      </div> -->
 <?php        }// this ends the while loop
         }// this ends the if statement
     ?>
