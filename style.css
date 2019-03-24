@@ -1,0 +1,118 @@
+/*
+Theme Name: Assignment Three - Rachel McCart
+Theme URI:
+Author: Rachel M
+Description: Theme for assignment 3
+Version: 1.0
+License: Open
+Text Domain: Assignment 3
+*/
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+
+body {
+    background: white;
+    padding: 0 20px;
+}
+
+h1 {
+    font-family: 'Lato', sans-sans-serif;
+    text-align: left;
+    color: blue;
+    font-size: 2em;
+    padding-top: 20px;
+    float: left;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: pink;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.menu-primary-menu-container {
+    width: 100%;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: pink;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.column,
+.columns {
+    margin-left: 0%;
+}
+
+.one-half.column.posts {
+    padding: 25px;
+}
+
+.post-title {
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    color: pink;
+}
+
+.post-date {
+    margin-left: 15px;
+}
+
+.post-feature {
+    display: none;
+}
+
+.nine.columns.single-content{
+    padding-right: 100px;
+}
+
+.two-thirds.column {
+    margin-right: 60px;
+}
+
+.one-third.column.side {
+    margin-left: 200px;
+}
+
+.sidebar {
+    max-width: 275px;
+}
+
+.widget-sidebar {
+    margin-right: 0px;
+    align-content: right;
+    max-width: 275px;
+}
+
+.row {
+    display: inline;
+}
+
+.twelve.columns.not-found {
+    padding: 40px 20px 490px;
+}
+
+.footer-container {
+    width: 100%;
+    align-content: center;
+    margin: auto;
+}
