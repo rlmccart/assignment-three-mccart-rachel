@@ -108,7 +108,7 @@ li a {
     text-align: left;
 }
 
-.widget-sidebar ul {
+.widget-sidebar ul li {
   text-align: left; 
 }
 
