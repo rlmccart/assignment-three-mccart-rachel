@@ -126,6 +126,16 @@ register_sidebar( array(
    'after_title'   => '</h3>'
    ));
 
+//Main Blog Page
+register_sidebar( array(
+   'name'          => ('Blog Gallery'),
+   'id'            => 'blog-gallery',
+   'description'   => 'Blog gallery widget',
+   'before_widget' => '<div class="blog-gallery">',
+   'after_widget'  => '</div>',
+   'before_title'  => '<h3 class="widget-title">',
+   'after_title'   => '</h3>'
+   ));
 
 add_action('widgets_init', 'blank_widgets_init');
 

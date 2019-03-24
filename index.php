@@ -2,13 +2,11 @@
 
 <?php get_header(); ?>
 
-<!-- Hero Image Section -->
+<!-- Blog Gallery Section -->
     <div class="row">
-            <?php dynamic_sidebar('hero-image'); ?>
+            <?php dynamic_sidebar('blog-gallery'); ?>
         </div>
     </div>
-
-<?php get_sidebar(); ?>
 
 <div class="container">
     <div class="row">
