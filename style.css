@@ -53,7 +53,7 @@ li {
 li a {
     display: block;
     color: pink;
-    text-align: right;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
 }
