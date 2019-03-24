@@ -2,7 +2,11 @@
 
 <?php get_header(); ?>
 
-
+<!-- Blog Gallery Section -->
+    <div class="row">
+            <?php dynamic_sidebar('blog-gallery'); ?>
+        </div>
+    </div>
 
 <div class="container">
     <div class="row">
@@ -40,10 +44,6 @@
     </div>
 </div>
 
-<!-- Blog Gallery Section -->
-    <div class="row">
-            <?php dynamic_sidebar('blog-gallery'); ?>
-        </div>
-    </div>
+
 
 <?php get_footer(); ?>
