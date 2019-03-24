@@ -93,11 +93,11 @@ li a {
 .sidebar {
     max-width: 275px;
     text-align: left;
+    margin-right: 0px;
 }
 
 .widget-sidebar {
     margin-right: 0px;
-    align-content: right;
     max-width: 275px;
 }
 
