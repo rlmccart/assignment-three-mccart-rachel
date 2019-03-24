@@ -44,8 +44,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    text-align: left;
-    align-content: left;
 }
 
 li {
@@ -103,7 +101,7 @@ li a {
 
 .widget-sidebar {
     margin-right: 0px;
-    align-content: right;
+/*    align-content: right; */
     max-width: 275px;
     text-align: left;
 }
